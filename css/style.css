@@ -1,0 +1,121 @@
+html {
+	font-size: 16px;
+	font-family: 'Walter Turncoat', cursive;	
+	font-weight: 200;
+	/*font-family: sans-serif;
+	font-weight: 400;*/
+	color: white;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.grad {
+    background: tomato; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(tomato, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(tomato, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(tomato, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(tomato, teal); /* Standard syntax */
+}
+
+body {
+	height: 90%;
+	width: 100%;
+	background-color: tomato;
+}
+
+
+.container{
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+}	
+
+.centered-form {
+	height: 70%;
+	width:70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.centered-form .form-input, .form-button {
+	display: flex;
+	align-content: center;
+	width:50%;
+}
+
+.form-button {
+	justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  text-align:center;
+  padding: 10px 40px;
+  color: white;
+  transition: 300ms ease-in-out;
+  box-shadow: 0px 4px 20px #ccc;
+  font-size: 22px;
+  margin: 50px 2.6%;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 2px 20px #777;
+}
+
+.message {
+	font-size: larger;
+	background-color: black;
+	opacity: 0.6;
+	border-radius: 25px;
+	padding: 5px;
+	width: auto;
+	align-content: center;
+	justify-content: center;
+	display: block;
+}
+
+.success {
+	color: lightgreen;
+	
+}
+
+.failure {
+	color: red;
+
+}
+
+.blue {
+  background-color: #33b5e5;
+  border-bottom: 3px solid #0099cc;
+}
+
+
+.form-button .material-button {
+	width: 100px;
+	height: 100px;
+	background: olive;
+	padding: 20px;
+}
+
+.centered-form input {
+	width: 100%;
+	height: 35px;
+	border: 2px solid orange;
+	border-radius: 5px ;
+	line-height: 1.5rem;
+	margin-top: 1rem;
+	font-size: xx-large;
+
+}
